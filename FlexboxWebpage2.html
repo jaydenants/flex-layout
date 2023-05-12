@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage template2</title>
+
+    <style>
+*{
+    margin:0px;
+    background-color: white;
+  
+}
+
+.main{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+
+}
+
+@media (max-width: 1000px) {
+  .main {
+    flex-direction: column;
+    justify-content: center;    }
+    .left{
+        
+    }
+}
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+    }
+}
+@media (max-width: 600px) {
+  .main {
+    flex-direction: column;
+    }
+}
+
+.left{
+    display:flex;
+    flex-direction: column;
+    width:30vh;
+    height: 70vh;
+    margin-left:40vh;
+}
+
+.middle{
+    display:flex;
+    flex-direction:column;
+    width:30vh;
+    height:70vh;
+    margin-top:100px;
+}
+
+.right{
+    display:flex;
+    flex-direction:column;
+    width:30vh;
+    height:70vh;
+    margin-right:40vh;
+}
+
+.left div,.middle div,.right div{
+    margin-top:50px;
+}
+.img1 img{
+    width:100%;
+    height:500px;
+
+}
+.img2 img{
+    width:100%;
+    height:500px;
+
+}
+.img3 img{
+    width:100%;
+    height:500px;
+
+}
+
+.title{
+    display:flex;
+    text-align: center;
+    font-size:50px;
+    justify-content: center;
+}
+    </style>
+</head>
+
+<body>
+    <div class="title"> TRAVEL <br>EXPERIENCE </div>
+    <div class="main">
+    <div class="left">
+    <div class="img1"> <img src="./9aacb8a1f89f6b952e2dd47697873709c655fa22-1440x893.jpg" alt="Boat"> </div>
+    <div class="box">
+        <h1>01</h1>
+        <p>The open sea, the salty breeze, the warm sun. We love travel as much as you do, so let's plan your next trip together</p>
+    </div>
+    </div>
+
+    
+    <div class="middle">
+    <div class="img2"> <img src="./ama-dablam2-most-beautiful-mountains-in-the-world.jpg" alt="Mountains"> </div>
+    <div class="box">
+        <h1>02</h1>
+        <p>The open sea, the salty breeze, the warm sun. We love travel as much as you do, so let's plan your next trip together</p>
+    </div>
+    </div>
+   
+    <div class="right">
+    <div class="img3"> <img src="./shutterstock-713084413.webp" alt="Sahara Desert"> </div>
+    <div class="box">
+        <h1>03</h1>
+        <p>The open sea, the salty breeze, the warm sun. We love travel as much as you do, so let's plan your next trip together</p>
+    </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
